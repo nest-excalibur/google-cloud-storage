@@ -33,7 +33,9 @@ export function GoogleCloudStorageFilesInterceptor(
         return;
       }
 
-      for (const file of files) file.storageUrl = await this.gcloudStorage.upload(file, gcloudStorageOptions);
+      for (const file of files) {
+        file.storageUrl = await this.gcloudStorage.upload(file, gcloudStorageOptions);
+      }
 
       return next.handle();
     }

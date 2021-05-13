@@ -1,6 +1,6 @@
-import {DynamicModule, Module} from '@nestjs/common';
-import {GoogleCloudStorageAsyncOptions, GoogleCloudStorageOptions} from './interfaces';
-import {GoogleCloudStoragePrincipalModule} from './google-cloud-storage-principal.module';
+import { DynamicModule, Module } from '@nestjs/common';
+import { GoogleCloudStorageAsyncOptions, GoogleCloudStorageOptions } from './interfaces';
+import { GoogleCloudStoragePrincipalModule } from './google-cloud-storage-principal.module';
 
 @Module({})
 export class GoogleCloudStorageModule {
