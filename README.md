@@ -1,3 +1,9 @@
+<img src="https://img.shields.io/npm/dt/@nest-excalibur/google-cloud-storage"></img>
+<img src="https://img.shields.io/npm/v/@nest-excalibur/google-cloud-storage"></img>
+<img src="https://img.shields.io/npm/l/@nest-excalibur/google-cloud-storage"></img>
+<img src="https://img.shields.io/github/stars/nest-excalibur/google-cloud-storage"></img>
+<img src="https://img.shields.io/github/issues/nest-excalibur/google-cloud-storage"></img>
+
 # Google Cloud Storage 
 
 
